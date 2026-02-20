@@ -14,34 +14,30 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#inicio" data-translate="inicio">Inicio</a></li>
-                <li><a href="#sobre-mi" data-translate="sobre_mi">Sobre Mí</a></li>
-                <li><a href="#proyectos" data-translate="proyectos">Proyectos</a></li>
-                <li><a href="#contacto" data-translate="contacto">Contacto</a></li>
-                <li><a href="./cv/CV_AlejandroSP_ESP.pdf" download data-translate="cv" id="cv-download">Descarga mi
-                        CV</a></li>
+                <li><a href="#inicio" data-translate="inicio"></a></li>
+                <li><a href="#sobre-mi" data-translate="sobre_mi"></a></li>
+                <li><a href="#proyectos" data-translate="proyectos"></a></li>
+                <li><a href="#contacto" data-translate="contacto"></a></li>
+                <li><a href="./cv/CV_AlejandroSP_ESP.pdf" download data-translate="cv" id="cv-download"></a></li>
                 <li class="traduccion">
                     <img src="./images/españa.png" onclick="cambiarIdioma('es')" title="Español" alt="Bandera España"
                         class="bandera">
-                    <img src="./images/reino_unido.png" onclick="cambiarIdioma('en')" title="Inglés" alt="Bandera Reino Unido"
-                        class="bandera">
+                    <img src="./images/reino_unido.png" onclick="cambiarIdioma('en')" title="Inglés"
+                        alt="Bandera Reino Unido" class="bandera">
                 </li>
             </ul>
         </nav>
     </header>
 
     <section id="inicio">
-        <h1 data-translate="bienvenida">Bienvenido a mi portfolio</h1>
-        <p data-translate="texto_bienvenida">Aquí podrás ver los proyectos que he realizado o en los que estoy
-            trabajando.</p>
+        <h1 data-translate="bienvenida"></h1>
+        <p data-translate="texto_bienvenida"></p>
     </section>
 
     <section id="sobre-mi">
-        <h2 data-translate="sobre_mi">Sobre Mí</h2>
-        <p data-translate="texto_sobre_mi">Soy un programador que se centra en dar una agradable experiencia
-            al usuario y aporta nuevas ideas para mejorar la usabilidad
-            que comprende la programación.</p>
-        <h2 data-translate="tech">Tecnologías</h2>
+        <h2 data-translate="sobre_mi"></h2>
+        <p data-translate="texto_sobre_mi"></p>
+        <h2 data-translate="tech"></h2>
         <div class="icon-box">
             <img class="icon" src="./images/Angular.webp" alt="angular-icon">
             <img class="icon" src="./images/Nodejs.webp" alt="nodejs-icon">
@@ -60,40 +56,119 @@
     </section>
 
     <section id="proyectos">
-        <h2 data-translate="proyectos">Proyectos</h2>
-        <div class="proyecto">
-            <h3 data-translate="pokeAPI">Proyecto PokeAPI</h3>
-            <a href="https://github.com/AlejandroASP/Proyecto-PokeAPI-Angular" target="_blank">
-                <img class="icon-proyect" src="./images/Pokedex.png" alt="pokedex-image">
-            </a>
-            <p data-translate="pokeAPI_texto">Este es un proyecto que hice para empezar a aprender angular y typescript,
-                con llamadas a la PokeAPI.</p>
-            <img class="icon" src="./images/Angular.webp" alt="angular-icon">
-            <img class="icon" src="./images/Typescript.svg" alt="typescript">
-            <img class="icon" src="./images/Html.webp" alt="html-icon">
-            <img class="icon" src="./images/Css.webp" alt="css-icon">
-            <img class="icon" src="./images/Github.png" alt="github-icon">
-        </div>
-        <div class="proyecto">
-            <h3 data-translate="proyectFinDaw">Proyecto fin de curso</h3>
-            <a href="https://github.com/AlejandroASP/Proyecto-Final-DAW" target="_blank">
-                <img class="icon-proyect" src="./images/Proyectofindaw.png" alt="proyecto-image">
-            </a>
-            <p data-translate="proyectFinDaw_texto">Este proyecto fue realizado junto a un compañero de clase para
-                presentar a final del grado superior de Desarrollo de aplicaciones web.</p>
-            <img class="icon" src="./images/React.webp" alt="react-icon">
-            <img class="icon" src="./images/Vite.svg" alt="react-icon">
-            <img class="icon" src="./images/Html.webp" alt="html-icon">
-            <img class="icon" src="./images/Css.webp" alt="css-icon">
-            <img class="icon" src="./images/Javascript.png" alt="javascript-icon">
-            <img class="icon" src="./images/Nodejs.webp" alt="nodejs-icon">
-            <img class="icon" src="./images/Figma.webp" alt="figma-icon">
-            <img class="icon" src="./images/Github.png" alt="github-icon">
+        <h2 data-translate="proyectos"></h2>
+        <div class="proyectos-grid">
+
+            <div class="proyecto">
+                <div class="proyecto-img-wrap">
+                    <a href="https://velvety-malabi-6c3028.netlify.app/" target="_blank">
+                        <img class="icon-proyect" src="./images/Portada_Proyecto_RickMorty.png" alt="rick&morty-image">
+                    </a>
+                </div>
+                <div class="proyecto-body">
+                    <h3 data-translate="rick_morty_api"></h3>
+                    <p data-translate="rick_morty_api_texto"></p>
+                    <div class="tech-stack">
+                        <img class="icon" src="./images/React.webp" alt="react-icon">
+                        <img class="icon" src="./images/Vite.svg" alt="vite-icon">
+                        <img class="icon" src="./images/Javascript.png" alt="javascript-icon">
+                        <img class="icon" src="./images/Html.webp" alt="html-icon">
+                        <img class="icon" src="./images/Css.webp" alt="css-icon">
+                        <img class="icon" src="./images/Nodejs.webp" alt="nodejs-icon">
+                        <img class="icon" src="./images/Github.png" alt="github-icon">
+                    </div>
+                </div>
+                <div class="proyecto-footer">
+                    <a class="ver-proyecto" href="https://github.com/AlejandroASP/Rick-Morty_API" target="_blank"
+                        data-translate="ver_github"></a>
+                    <a class="ver-web activo" href="https://velvety-malabi-6c3028.netlify.app/" target="_blank">
+                        <span data-translate="ver_web"></span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                            stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="proyecto-img-wrap">
+                    <a href="https://github.com/AlejandroASP/Proyecto-PokeAPI-Angular" target="_blank">
+                        <img class="icon-proyect" src="./images/Pokedex.png" alt="pokedex-image">
+                    </a>
+                </div>
+                <div class="proyecto-body">
+                    <h3 data-translate="pokeAPI">Proyecto PokeAPI</h3>
+                    <p data-translate="pokeAPI_texto">Este es un proyecto que hice para empezar a aprender Angular y
+                        TypeScript,
+                        con llamadas a la PokeAPI.</p>
+                    <div class="tech-stack">
+                        <img class="icon" src="./images/Angular.webp" alt="angular-icon">
+                        <img class="icon" src="./images/Typescript.svg" alt="typescript">
+                        <img class="icon" src="./images/Html.webp" alt="html-icon">
+                        <img class="icon" src="./images/Css.webp" alt="css-icon">
+                        <img class="icon" src="./images/Github.png" alt="github-icon">
+                    </div>
+                </div>
+                <div class="proyecto-footer">
+                    <a class="ver-proyecto" href="https://github.com/AlejandroASP/Proyecto-PokeAPI-Angular"
+                        target="_blank" data-translate="ver_github"></a>
+                    <span class="ver-web">
+                        <span data-translate="ver_web"></span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                            stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                        </svg>
+                        <span class="tooltip" data-translate="proximamente"></span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="proyecto-img-wrap">
+                    <a href="https://github.com/AlejandroASP/Proyecto-Final-DAW" target="_blank">
+                        <img class="icon-proyect" src="./images/Proyectofindaw.png" alt="proyecto-image">
+                    </a>
+                </div>
+                <div class="proyecto-body">
+                    <h3 data-translate="proyectFinDaw">Proyecto Fin de Curso</h3>
+                    <p data-translate="proyectFinDaw_texto">Este proyecto fue realizado junto a un compañero de clase
+                        para
+                        presentar a final del grado superior de Desarrollo de aplicaciones web.</p>
+                    <div class="tech-stack">
+                        <img class="icon" src="./images/React.webp" alt="react-icon">
+                        <img class="icon" src="./images/Vite.svg" alt="vite-icon">
+                        <img class="icon" src="./images/Html.webp" alt="html-icon">
+                        <img class="icon" src="./images/Css.webp" alt="css-icon">
+                        <img class="icon" src="./images/Javascript.png" alt="javascript-icon">
+                        <img class="icon" src="./images/Nodejs.webp" alt="nodejs-icon">
+                        <img class="icon" src="./images/Figma.webp" alt="figma-icon">
+                        <img class="icon" src="./images/Github.png" alt="github-icon">
+                    </div>
+                </div>
+                <div class="proyecto-footer">
+                    <a class="ver-proyecto" href="https://github.com/AlejandroASP/Proyecto-Final-DAW" target="_blank"
+                        data-translate="ver_github">
+                    </a>
+                    <span class="ver-web">
+                        <span data-translate="ver_web"></span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                            stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                        </svg>
+                        <span class="tooltip" data-translate="proximamente"></span>
+                    </span>
+                </div>
+            </div>
+
         </div>
     </section>
 
     <section id="contacto">
-        <h2 data-translate="contacto">Contacto</h2>
+        <h2 data-translate="contacto"></h2>
         <form id="Form" action="https://formsubmit.co/alejandroasp71@gmail.com" method="POST">
             <input type="text" id="nombre" name="nombre" data-translate-placeholder="placeholder_nombre" required>
             <input type="email" id="email" name="email" data-translate-placeholder="placeholder_correo"
@@ -101,7 +176,7 @@
             <textarea id="mensaje" name="mensaje" data-translate-placeholder="placeholder_mensaje" required></textarea>
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_template" value="table">
-            <button type="submit" data-translate="enviar">Enviar</button>
+            <button type="submit" data-translate="enviar"></button>
         </form>
     </section>
 
