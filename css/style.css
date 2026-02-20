@@ -29,7 +29,6 @@
     --font-regular:  'Roboto Medium';
     --font-italic:   'Roboto Medium Italic';
     --font-bold:     'Roboto Bold';
-
     
     --radius-sm:     6px;
     --radius-md:     8px;
@@ -40,7 +39,6 @@
     --max-w-section: 600px;
     --max-w-grid:    1200px;
 
-    
     --transition-base: 0.25s ease;
     --transition-hover: 0.35s ease;
 }
@@ -123,6 +121,13 @@ section {
 
 #inicio {
     margin-top: 100px;
+}
+
+#inicio p{
+    text-align: center;
+}
+#sobre-mi p {
+    text-align: center;
 }
 
 #contacto {
@@ -374,6 +379,7 @@ section {
 
 .ver-web.activo:hover {
     color: var(--color-accent-hover);
+    gap: 10px;
 }
 
 .ver-web svg {
@@ -568,25 +574,25 @@ footer {
     }
 
     #Form {
-        align-items: center;
+        align-items: stretch;
     }
 
     #Form input {
-        width: 300px;
-        height: 30px;
-        padding: 8px;
-        margin: 5px 0;
-        border-radius: 4px;
-        border: none;
+        width: 100%;
+        height: auto;
+        padding: 12px 16px;
+        margin: 0;
+        border-radius: var(--radius-md);
+        border: 1px solid var(--color-border);
         box-sizing: border-box;
     }
 
     #Form textarea {
-        width: 88%;
+        width: 100%;
     }
 
     #Form button {
-        width: 300px;
+        width: 100%;
     }
 
     .proyecto-body p {
